@@ -30,7 +30,7 @@ twitter_username: achintyaPas
 github_username:  achintya-dot-you
 
 # Build settings
-theme: minimal-mistakes-jekyll
+theme: minima
 plugins:
   - jekyll-feed
 
