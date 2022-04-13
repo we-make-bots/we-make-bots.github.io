@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
 *{
   margin:0;
   padding:0;
@@ -18,15 +20,18 @@
   left:50%;
   transform: translate(-50%,-50%);
   text-align: center;
+  font-family: 'Titillium Web',
+  sans-serif;
 }
 
 .text-box h1{
-  font-size: 62px;
+
+  font-size: 80px;
 }
 
 .text-box p{
   margin: 10px 0 40px;
-  font-size: 14px;
+  font-size: 25px;
   color:inherit;
 }
 
@@ -34,20 +39,32 @@
   display: inline-block;
   text-decoration: none;
   color: #39393a;
-  border: 1px solid #eb9486;
+  border: 3px solid #ff1212;
   padding: 12px 34px;
-  font-size: 13px;
+  font-size: 25px;
   background: transparent;
   position: relative;
   cursor: pointer;
 }
 .hero-btn:hover{
-  border:1px solid;
+  border:3px solid;
   background: #baa5ff;
-  transition: 1s;
-  
+  transition: 2s;
+  text-decoration: none;
 }
 
+@media(max-width:700px){
+  .text-box h1 {
+    font-size: 20px;
+  }
+  .text-box p{
+    font-size: 10px;
+  }
+  .hero-btn{
+    font-size: 10px;
+  }
+
+}
 .navbar .navbar-nav .nav-link:hover {
   color: #000000;
   text-decoration: none;
