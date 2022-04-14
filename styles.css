@@ -161,7 +161,7 @@ nav {
 }
 
 .heading-secondary {
-  font-size: 3.5rem;
+  font-size: 35px;
   text-transform: uppercase;
   font-weight: 700;
   background-image: linear-gradient(
@@ -174,5 +174,24 @@ nav {
   background-clip: text;
   color: transparent;
   transition: all 0.2s;
-  letter-spacing: 0.2rem;
+  letter-spacing: 02px;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+}
+
+.heading-tertiary {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #39393a;
+}
+
+h3 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
