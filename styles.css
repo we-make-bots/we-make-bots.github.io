@@ -119,5 +119,5 @@
   );
   background-size: cover;
   background-position: top;
-  box-shadow: 10px, 0, 30px, rgba(0, 0, 0, 0.559);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.559);
 }
