@@ -55,11 +55,11 @@ nav {
   background: transparent;
   position: relative;
   cursor: pointer;
+  transition: all 1.5s;
 }
 .hero-btn:hover {
   border: 3px solid;
   background: #baa5ff;
-  transition: 2s;
   text-decoration: none;
 }
 
