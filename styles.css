@@ -21,6 +21,7 @@ nav {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   background-size: cover;
   background-position: top;
+  position: relative;
 }
 
 .text-box {
@@ -124,4 +125,10 @@ nav {
   );
   background-size: cover;
   background-position: top;
+}
+
+.wecontactyou {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
