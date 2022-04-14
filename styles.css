@@ -195,3 +195,12 @@ h3 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
+.section-about {
+  background-color: #f7f7f7;
+}
+
+main {
+  margin-left: 10px;
+  margin-right: 10px;
+}
