@@ -17,8 +17,8 @@ nav {
     rgba(113, 235, 145, 1) 15%,
     rgba(113, 235, 229, 1) 69%
   );
-  clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -75,6 +75,8 @@ nav {
     padding: 12px 22px;
   }
   .header {
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
   }
 }
 .navbar .navbar-nav .nav-link:hover {
