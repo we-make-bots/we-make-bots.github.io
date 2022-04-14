@@ -206,7 +206,7 @@ h3 {
 
 .section-about {
   background-color: #f7f7f7;
-  clip-path: polygon(0 0, 100% 0, 100% 115vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
   background-size: cover;
   background-position: top;
