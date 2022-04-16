@@ -71,6 +71,7 @@ body {
   stroke: #39393a;
   width: 62px;
   stroke-width: 0.9px;
+  position: relative;
 }
 
 .how-we-work {
@@ -96,6 +97,14 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
+.how-we-work-indicator {
+  position: absolute;
+  /* background: orangered; */
+  top: 619px;
+  left: 612px;
+}
+
 .how-we-work p {
   font-size: 22px;
   background: #39393a;
