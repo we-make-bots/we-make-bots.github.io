@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Titillium+Web:wght@600&display=swap');* {
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Titillium+Web:wght@600&display=swap');
+* {
   margin: 0;
   padding: 0;
 }
@@ -6,9 +7,12 @@
 nav {
   box-shadow: 0px 10px 20px rgb(0 0 0 / 56%);
 }
-body{
-  background-image: linear-gradient(90deg, rgba(186, 165, 255, 1) 15%, rgba(235, 148, 134, 1) 68%);
-
+body {
+  background-image: linear-gradient(
+    90deg,
+    rgba(186, 165, 255, 1) 15%,
+    rgba(235, 148, 134, 1) 68%
+  );
 }
 .header {
   min-height: 100vh;
@@ -32,8 +36,8 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-family: 'Titillium Web',
-  sans-serif;}
+  font-family: 'Titillium Web', sans-serif;
+}
 
 .text-box h1 {
   font-size: 80px;
@@ -63,63 +67,71 @@ body{
   text-decoration: none;
 }
 
-.how-we-work{
+.how-we-work-icon {
+  stroke: #39393a;
+  width: 62px;
+  stroke-width: 0.9px;
+}
+
+.how-we-work {
   width: 70%;
   margin: auto;
   text-align: center;
   padding-top: 35px;
 }
 
-.how-we-work h1,.how-we-work p{
+.how-we-work h1,
+.how-we-work p {
   font-family: 'Source Code Pro', monospace;
-  font-size:56px;
+  font-size: 56px;
   font-weight: 1000;
-  background: linear-gradient(90deg,
+  background: linear-gradient(
+    90deg,
     rgba(113, 235, 145, 1) 15%,
-    rgba(113, 235, 229, 1) 69%);
+    rgba(113, 235, 229, 1) 69%
+  );
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin:0px;
+  margin: 0px;
   padding: 0px;
 }
-.how-we-work p{
+.how-we-work p {
   font-size: 22px;
   background: #39393a;
-  
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
 }
 
-.how-we-work-row{
-  margin-top:5%;
-  display:flex;
+.how-we-work-row {
+  margin-top: 5%;
+  display: flex;
   justify-content: space-between;
 }
 
-.how-we-work-col{
+.how-we-work-col {
   flex-basis: 31%;
-  background-image:linear-gradient(90deg,
+  background-image: linear-gradient(
+    90deg,
     rgba(113, 235, 145, 1) 15%,
-    rgba(113, 235, 229, 1) 69%);
+    rgba(113, 235, 229, 1) 69%
+  );
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
   box-sizing: border-box;
   transition: all 0.3s;
 }
-.how-we-work-col h2{
-  font-family: 'Titillium Web',
-  sans-serif;
-  text-align:center;
-  font-weight:600;
+.how-we-work-col h2 {
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+  font-weight: 600;
   margin: 10px 0;
   font-size: 34px;
 }
-.how-we-work-col:hover{
+.how-we-work-col:hover {
   transform: translateY(-1.5rem) scale(1.03);
-
 }
 @media (max-width: 700px) {
   .text-box h1 {
@@ -136,15 +148,14 @@ body{
     clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
   }
-  .how-we-work{
-    width:90%;
+  .how-we-work {
+    width: 90%;
   }
-  .how-we-work-row{
+  .how-we-work-row {
     flex-direction: column;
   }
   .how-we-work-col:hover {
     transform: translateY(0) scale(1);
-  
   }
 }
 .navbar .navbar-nav .nav-link:hover {
