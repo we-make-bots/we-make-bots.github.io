@@ -22,9 +22,26 @@ title: 'We Make Bots | Homepage'
     <meta name="author" content="Arnav and Achintya" />
     <meta name="keywords" content="we_make_bots discord" />
     <meta name="description" content="We make bots!!!" />
+    <style>
+      .auto-type{
+        background: rgb(186,165,255);
+background: linear-gradient(90deg, rgba(186,165,255,1) 35%, rgba(249,57,26,1) 70%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+      }
+    </style>
   </head>
   <body>
     {% include navigation.html %} {% include header.html %}
     <main>{% include about.html %} {include features.html}</main>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-type", {strings: ["MAKE BOTS", "CODE YOUR IDEAS", "CODE BOTS", "CAN MAKE BOTS", "MADE THIS COOL EFFECT", "-E WEE MAMA"],
+      typeSpeed: 100,
+      backSpeed: 50,
+      loop: true
+    })
+    </script>
   </body>
 </html>
