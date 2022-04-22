@@ -177,6 +177,24 @@ body {
   color: #000000;
   font-size: 1.1em;
 }
+.features{
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.features-row{
+  width: 80%;
+  margin: auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.features-col{
+  flex-basis:25%;
+  text-align: center;
+  
+}
 @media only screen and (min-width: 992px) {
   .navbar {
     padding: 0;
